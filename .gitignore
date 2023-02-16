@@ -1,2 +1,4 @@
 databases/*
 node_modules/*
+src/**/*.js
+test/**/*.js
