@@ -1,9 +1,0 @@
-"use strict";
-Object.defineProperty(exports, "__esModule", { value: true });
-const main_1 = require("./main");
-(0, main_1.main)({
-    type: "sqlite",
-    database: "databases/data.db",
-    entities: ["src/entity/**/*.js"],
-    synchronize: true,
-}).catch(console.error);
